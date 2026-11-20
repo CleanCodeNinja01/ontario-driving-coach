@@ -1,0 +1,21 @@
+# secrets
+.env
+
+# python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+
+# node / next.js (for later)
+node_modules/
+.next/
+
+# os / editor
+.DS_Store
+.vscode/
+.idea/
+
+# generated outputs
+evals/reports/
