@@ -1,6 +1,8 @@
 # Ontario Driving Coach
 
-Local stack for an Ontario driving-practice coach. Postgres (with pgvector) stores data and embeddings. Ollama serves the chat and embedding models. Application code is not in this repo yet.
+A local coach for Ontario driving practice. It answers from stored handbook material: Postgres with pgvector holds the text and embeddings, and Ollama runs the chat and embedding models. Nothing is sent to a hosted model unless `OPENAI_API_KEY` or `ANTHROPIC_API_KEY` is set.
+
+Application code is not in this repo yet. The first service will live in `services/ai`; a Next.js app in `web` comes after that.
 
 ## Layout
 
